@@ -1,5 +1,8 @@
 # JavaScript Tasks by Nijat Aliyev
 
+Simple, medium and Advanced level tasks.
+More tasks will be added over time
+
 ### Task Groups
 
 ```
