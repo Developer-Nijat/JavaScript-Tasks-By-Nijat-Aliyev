@@ -173,3 +173,60 @@
 // }
 
 // console.log(squareNumbers([1, 2, 3])); // Output: [1, 4, 9]
+
+// ====================================================================
+
+// Array Task 18
+
+// Group an array of objects by a category property
+
+// const products = [
+//     { name: "iPhone", category: "Electronics" },
+//     { name: "T-shirt", category: "Clothing" },
+//     { name: "Headphones", category: "Electronics" },
+//     { name: "Jeans", category: "Clothing" },
+//   ];
+
+// console.log(groupedProducts);
+// Output:
+// {
+//   Electronics: [
+//     { name: 'iPhone', category: 'Electronics' },
+//     { name: 'Headphones', category: 'Electronics' }
+//   ],
+//   Clothing: [
+//     { name: 'T-shirt', category: 'Clothing' },
+//     { name: 'Jeans', category: 'Clothing' }
+//   ]
+// }
+
+// ====================================================================
+
+// Array Task 19
+
+// Find the average of an array of numbers.
+
+// const numbersArr = [10, 15, 20, 25, 30];
+// console.log(average); // Output: 20
+
+// ====================================================================
+
+// Array Task 20
+
+// Remove falsy values from an array.
+
+// const values = [0, false, "", undefined, null, NaN, 42, "Hello"];
+// console.log(truthyValues); // Output: [42, 'Hello']
+
+// ====================================================================
+
+// Array Task 21
+
+// Flatten a nested array into a single-level array.
+
+// const nestedArray = [1, [2, [3, [4, [5]]]]];
+// console.log(flattenedArray); // Output: [1, 2, 3, 4, 5]
+
+// ====================================================================
+
+// Array Task 22

@@ -85,3 +85,31 @@
 //  };
 
 // ====================================================================
+
+// Object Task 6
+
+//  Optimize hardcoded parseJsonToCallLogModel method
+
+// const parseJsonToCallLogModel = (params) => {
+//   let callLogModel = {};
+
+//   if (params.lang === '1') callLogModel.lang = 'az';
+//   if (params.lang === '2') callLogModel.lang = 'ru';
+//   if (params.lang === '3') callLogModel.lang = 'en';
+
+//   if (params.mobileNumber && params.mobileNumber.startsWith('+994')) {
+//     params.mobileNumber = params.mobileNumber.replace('+994', '0')
+//   }
+//   if (params.mobileNumber && params.mobileNumber.startsWith('994')) {
+//     params.mobileNumber = params.mobileNumber.replace('994', '0')
+//   }
+
+//   callLogModel.customerId = params.customerId;
+//   callLogModel.customerType = params.customerType;
+//   callLogModel.tin = params.tin;
+//   callLogModel.pan = params.pan;
+//   callLogModel.mobileNumber = params.mobileNumber;
+//   callLogModel.action = params.action;
+
+//   return callLogModel;
+// };
